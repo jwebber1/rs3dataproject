@@ -1,0 +1,11 @@
+<!-- templates are not often used anymore. Consider using other things, maybe react? -->
+
+<!-- it is possible to include logic in the html like below -->
+{% if name %}
+<h1>Hello {{name}}!</h1> <!-- {{name}} is the dictionary key-value pair coming in from views -->
+
+{% else %}
+<h1>Hello World!</h1>
+
+{% endif %}
+<p>This is the hello page.</p>
